@@ -5,12 +5,27 @@
         $sql = "DELETE from Bodega where codigo_articulo = $cod_art";
         $resultado = mysqli_query($conexion, $sql);
 
-        if(!$resultado){
-            die("Consulta fallida");
+        if($resultado){
+            ?>
+            <?php include('header.php'); ?>
+            <h3>Articulo eliminado</h3>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="formularioBodega.php">Volver</a>
+                </li> 
+            </ul>
+        <?php
         }
-
-        $_SESSION['message'] = 'Producto eliminado correctamente';  
-        $_SESSION['message_type'] ='danger';
+        else{
+        ?>
+        <h3>Ha ocurrido un error </h3>
+        <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="formularioBodega.php">Volver</a>
+                </li> 
+        </ul>
+        <?php
+        }
     }
 
 ?>

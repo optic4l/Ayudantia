@@ -28,8 +28,9 @@
             
 
         </section>
-        <section>
-            <table>
+        <br><br>
+        <section> 
+            <table width = "100%" >
                 <thead>
                     <tr>
                         <th>Codigo</th>
@@ -58,10 +59,10 @@
                                 <td> <?php echo $fila['venta_articulo'] ?></td>
                                 <td> <?php echo $fila['descuento_articulo'] ?></td>
                                 <td> 
-                                    <a class="btn btn-primary" href="modificarProducto.php?id=<?php echo $fila['codigo_articulo']?>">
+                                    <a class="btn btn-primary" href="modificarProducto.php?id=<?php echo $fila['codigo_articulo']?>">modificar
                                         <i class="fas fa-marker"></i>
                                     </a>
-                                    <a class="btn btn-danger" href="eliminarProducto.php?id=<?php echo $fila['codigo_articulo']?>">
+                                    <a class="btn btn-danger"  href="eliminarProducto.php?id=<?php echo $fila['codigo_articulo']?>">eliminar
                                         <i class="far fa-trash-alt"></i>
                                     </a>
 

@@ -50,7 +50,7 @@
             <div>
                 <form action="modificarProducto.php?id=<?php echo $_GET['id']?>" method="POST">
                     
-                    <center>
+                    <section class="form-register">
                         <h3>Actualizar articulo</h3>
                         <label>Nombre del articulo</label><br>
                         <input class="controles" type="text" name="nombre_articulo" id="codigo_articulo" placeholder="Ingrese Nombre del articulo" value="<?php echo $nombreProd?>"><br>                        
@@ -66,7 +66,7 @@
                         <input class="controles" type="number" name="descuento_articulo" id="descuento_articulo" placeholder="Ingrese descuento" value="<?php echo $dcto?>"><br>
                         
                         <input type="submit" class="botons" name="Actualizar" placeholder="Actualizar">
-                    </center>
+                    </section >
                     
                 </form> 
             </div>    
