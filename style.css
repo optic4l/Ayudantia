@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://previews.123rf.com/images/olliethedesigner/olliethedesigner1701/olliethedesigner170100084/70665141-c%C3%ADrculo-3d-enlaces-de-fondo-con-los-iconos-2.jpg');
+}
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: radius;
+    border-radius: 4px;
+    font-family: 'Verdana';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-register h4{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.controles{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px ;
+    margin-bottom: 16px;
+    border: 1px solid #000;
+    font-family: 'verdana';
+    font-size: 18px;
+    color:white;
+
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-register .botons{
+    width: 100%;
+    background: #02AC66;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    box-shadow: 7px 13px 37px #0b3121;
+}
+.botons:hover{
+    background-color: darkgreen;
+}
